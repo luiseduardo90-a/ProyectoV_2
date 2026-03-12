@@ -2,9 +2,27 @@
 
 <html>
   <head>    
+        <style>
+        .botonComida {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px; 
+            height: 80px;
+            border: none;
+            cursor: pointer;
+            background-image:"https://png.pngtree.com/png-vector/20250112/ourlarge/pngtree-single-one-biscuit-coockies-on-transparent-background-png-image_14740519.png";
+            background-size: cover;
+            transition: transform 0.1s;
+        }
+        .botonComida:active {
+            transform: scale(0.9);
+        }
+    </style>
   </head>
   <title>Comidita Rapida</title>
 <body style="background-color: lightblue;display: flex; flex-direction: column; min-height: 100vh; margin: 0;">
+  <button class="botonComida"></button>
   <center>
     
 <h1 style= "background-color: #f4f4f4; border: 2px solid #ddd; padding: 20px; border-radius: 10px; width: fit-content; margin: 20px auto; text-align: center; font-family: sans-sherif;">
@@ -46,6 +64,7 @@ Recetas Rapidas
 </footer>
 
  </html>
+
 
 
 
